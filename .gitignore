@@ -1,0 +1,24 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Advent2023/.vs/Advent2023/DesignTimeBuild
+/Advent2023/.vs/Advent2023/FileContentIndex
+/Advent2023/.vs/Advent2023/v17
+/Advent2023/.vs/ProjectEvaluation
+/Advent2023/obj
+/Advent2023/bin/Debug/net7.0
+/.vs/AdventOfCode
+/Advent2022/bin/Debug/net7.0
+/Advent2022/obj
+/AdventOfCode/bin/Debug/net7.0
+/AdventOfCode/obj
+/.vs/ProjectEvaluation
+/AdventCommon/obj
+/Advent2022/bin/Debug/net8.0
+/Advent2023/bin/Debug/net8.0
+/AdventOfCode/bin/Debug/net8.0
+/Advent2024/bin/Debug/net8.0
+/Advent2024/obj
+/AdventUtils/bin/Debug/net8.0
+/AdventUtils/obj
