@@ -1,24 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Advent2024.Day00;
 
-namespace Advent2024.Day00
+public class Logic
 {
-    public class Logic
+    private Model _model;
+    public Logic(Model model)
     {
-        private Model _model;
-        public Logic(Model model)
-        {
-            _model = model;
-        }
+        _model = model;
+    }
 
-        public string Run()
-        {
-            long sum = 0;
+    public string Run()
+    {
+        long sum = 0;
 
-            return sum.ToString();
-        }
+        return sum.ToString();
     }
 }
