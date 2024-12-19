@@ -40,7 +40,7 @@ public class Logic
             // Recursively check remainder of the design, given that first part is the towel.
             if (design.Substring(0, towel.Length) == towel)
             {
-                numComputes = NumComputes(design.Substring(towel.Length));
+                numComputes += NumComputes(design.Substring(towel.Length));
             }
         }
 
