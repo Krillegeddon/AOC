@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Advent2024.Day19
+namespace Advent2024.Day20
 {
     internal class Data
     {
         public static string InputData = @"";
+
+        public static string InputDataXX = @"";
     }
 }
