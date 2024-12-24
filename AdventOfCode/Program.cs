@@ -1,4 +1,4 @@
-﻿using Advent2024.Day23;
+﻿using Advent2024.Day24;
 
 var model = Model.Parse();
 var logic = new Logic(model);
