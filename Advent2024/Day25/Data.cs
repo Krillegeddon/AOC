@@ -1,4 +1,4 @@
-﻿namespace Advent2024.Day24;
+﻿namespace Advent2024.Day25;
 
 internal class Data
 {
