@@ -76,7 +76,7 @@ public class Pad
         return list;
     }
 
-    public List<List<Coord>> PressButton(string val)
+    public List<List<Coord>> MoveToButton(string val)
     {
         var retList = new List<List<Coord>>();
         var finalCoord = Grid._grid.Where(p => p.Value == val).First().Key;
@@ -146,7 +146,6 @@ public class NumericPad : Pad
     }
 }
 
-
 public class DirectionPad: Pad
 {
     public DirectionPad()
@@ -163,6 +162,14 @@ public class DirectionPad: Pad
     }
 }
 
+
+public class LastArrangement
+{
+    public NumericPad NumericPad { get; set; }
+    public DirectionPad DirectionPad { get; set; }
+
+
+}
 
 public class Arrangement
 {
@@ -181,7 +188,7 @@ public class Arrangement
 
     public List<List<Coord>> FindDirectionsForNumber(string number)
     {
-        var dirs1 = NumPad.PressButton(number);
+        //var dirs1 = NumPad.PressButton(number);
 
         return null;
     }
