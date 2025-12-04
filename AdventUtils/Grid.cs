@@ -126,5 +126,29 @@ namespace AdventUtils
                 Height = coord.Y + 1;
             _grid[coord] = value;
         }
+
+        public string GetAsString()
+        {
+            var sb = new StringBuilder("");
+            for (int y = 0; y < Height; y++)
+            {
+                for (int x = 0; x < Width; x++)
+                {
+                    var c = GetValue(Coord.Create(x, y));
+                    if (c != null)
+                    {
+                        sb.Append(c);
+                    }
+                    else
+                    {
+                        sb.Append(".");
+                    }
+                }
+                sb.Append('\n');
+            }
+            return sb.ToString();
+        }
+
+
     }
 }
