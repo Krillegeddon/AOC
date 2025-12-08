@@ -118,6 +118,12 @@ namespace AdventUtils
             return _grid[coord];
         }
 
+        public T GetValue(long x, long y)
+        {
+            return GetValue(Coord.Create(x, y));
+        }
+
+
         public void SetValue(Coord coord, T value)
         {
             if (coord.X >= Width)
