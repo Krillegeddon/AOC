@@ -21,7 +21,7 @@ namespace AdventUtils
         [DebuggerHidden]
         public static Coord Create(int x, int y)
         {
-            return new Coord {X = x, Y = y};
+            return new Coord { X = x, Y = y };
         }
         [DebuggerHidden]
         public static Coord Create(long x, long y)
@@ -36,7 +36,7 @@ namespace AdventUtils
         }
 
         [DebuggerHidden]
-        public Coord Up() {  return Coord.Create(X, Y - 1); }
+        public Coord Up() { return Coord.Create(X, Y - 1); }
         [DebuggerHidden]
         public Coord Down() { return Coord.Create(X, Y + 1); }
         [DebuggerHidden]
