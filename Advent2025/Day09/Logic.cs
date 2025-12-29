@@ -1,4 +1,15 @@
-﻿namespace Advent2025.Day09;
+﻿using AdventUtils;
+
+namespace Advent2025.Day09;
+
+public class Line
+{
+    public required Coord C1 { get; set; }
+    public required Coord C2 { get; set; }
+
+    public int DeltaXForInside {get; set; }
+    public int DeltaYForInside { get; set; }
+}
 
 public class Logic
 {
